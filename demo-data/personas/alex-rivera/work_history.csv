@@ -1,0 +1,4 @@
+company,role,start_date,end_date,department,highlights
+Apex Data Systems,Senior ML Platform Engineer,2022-01-01,Present,AI Research & Platform,"Scaled ML inference mesh to 45k QPS with <28ms latency; engineered automated LLM fine-tuning pipelines."
+NovaScale AI,Machine Learning Engineer,2019-06-01,2021-12-31,Engineering,"Built CV and NLP document intelligence pipelines; accelerated model inference by 3.2x with TensorRT."
+CloudMatrix Solutions,Software Engineer,2017-08-01,2019-05-31,Engineering,"Engineered distributed Go/Python backend services and multi-region AWS cloud infrastructure."

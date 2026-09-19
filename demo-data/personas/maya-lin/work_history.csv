@@ -1,0 +1,4 @@
+company,role,start_date,end_date,department,highlights
+Vantage Data Platform,Lead Data Scientist & Analytics Architect,2021-02-01,Present,Data Platform & Analytics,"Built enterprise lakehouse semantic layer on Snowflake & dbt; engineered experimentation platform evaluating \$85M in revenue impact."
+Quantum Analytics,Senior Data Analyst & Modeler,2018-07-01,2021-01-31,Data Platform,"Designed attribution models and automated Airflow data pipelines for 4M subscription users."
+Beacon Financial Group,Data Analyst,2016-09-01,2018-06-30,Engineering,"Developed quantitative reporting models and automated quarterly analytics in Python and R."

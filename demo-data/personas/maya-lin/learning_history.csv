@@ -1,0 +1,5 @@
+course_title,provider,completion_date,status,skills_acquired
+Causal Inference and A/B Testing Masterclass,Coursera / Stanford,2023-08-14,Completed,"Causal Inference, Synthetic Controls, A/B Testing, Uplift Modeling"
+Advanced Data Engineering with Apache Spark & Delta Lake,O'Reilly,2022-06-20,Completed,"Apache Spark, PySpark, Delta Lake, Performance Tuning"
+Building Semantic Layers with MetricFlow & dbt,Internal Academy,2023-04-10,Completed,"Semantic Layer, MetricFlow, dbt, Governance"
+Machine Learning Specialization,DeepLearning.AI,2021-03-25,Completed,"Machine Learning, Regression, Classification, scikit-learn"

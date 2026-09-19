@@ -1,0 +1,4 @@
+certification_name,issuing_organization,issue_date,credential_id,skills_verified
+AWS Certified Machine Learning - Specialty,Amazon Web Services,2023-05-15,AWS-ML-982314,"Machine Learning, SageMaker, Model Deployment, Python"
+DeepLearning.AI Deep Learning Specialization,Coursera / DeepLearning.AI,2021-11-20,DL-SPEC-40912,"PyTorch, Neural Networks, CNNs, Transformers"
+Certified Kubernetes Application Developer (CKAD),Linux Foundation,2022-08-10,CKAD-77402,"Kubernetes, Containers, Helm, Docker"

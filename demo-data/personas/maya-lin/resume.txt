@@ -1,0 +1,35 @@
+MAYA LIN
+Lead Data Scientist & Analytics Architecture Specialist
+Email: maya.lin@talentgraph.internal
+Location: Seattle, WA | Phone: (206) 555-0143 | LinkedIn: linkedin.com/in/mayalin-data
+
+PROFESSIONAL SUMMARY
+Lead Data Scientist with 7.0 years of experience designing real-time enterprise analytics platforms, causal inference models, statistical experimentation engines, and lakehouse architectures. Proven expertise in Snowflake, dbt, Apache Spark, Python, and SQL. Successfully spearheaded experimentation platform executing 300+ monthly A/B tests with automated sample-ratio-mismatch alerts. Deep expertise in statistical modeling, feature engineering, and cross-functional data leadership.
+
+EXPERIENCE
+
+Lead Data Scientist & Analytics Architect | Vantage Data Platform (2021 - Present)
+- Architected enterprise lakehouse data modeling standards on Snowflake and dbt Core serving 1,200+ analytics stakeholders.
+- Engineered automated experimentation and Bayesian uplift modeling engine evaluating \$85M in incremental revenue across digital channels.
+- Built customer lifetime value (LTV) prediction and churn forecasting pipelines in PySpark and MLflow.
+- Led data governance, semantic layer definitions, and automated data quality checks using Great Expectations.
+
+Senior Data Analyst & Modeler | Quantum Analytics (2018 - 2021)
+- Developed statistical attribution models and cohort analytics for subscription platform with 4M users.
+- Built interactive executive dashboards using Tableau and SQL, delivering daily business intelligence to C-suite.
+- Automated ETL/ELT pipelines using Apache Airflow and PostgreSQL, cutting data latency from 24 hours to 15 minutes.
+
+Data Analyst | Beacon Financial Group (2016 - 2018)
+- Designed quantitative reporting suites, financial trend models, and regulatory compliance datasets.
+- Automated quarterly reporting workflows in Python and R, saving 120 analyst hours per cycle.
+
+EDUCATION
+- Master of Science in Statistics & Computational Data Science, University of Washington (2016)
+- Bachelor of Science in Mathematics & Applied Statistics, UCLA (2014)
+
+TECHNICAL SKILLS & COMPETENCIES
+- Languages: Python, SQL, R, Scala, Bash
+- Analytics & ML: Snowflake, dbt, Apache Spark, PySpark, scikit-learn, Statsmodels, MLflow, LightGBM
+- Data Engineering & Orchestration: Apache Airflow, Kafka, Great Expectations, dbt Cloud
+- BI & Visualization: Tableau, Looker, Metabase, PowerBI, Streamlit
+- Statistical Methods: Bayesian Inference, Causal Analysis, A/B Testing, Time Series Forecasting, Cohort Analysis

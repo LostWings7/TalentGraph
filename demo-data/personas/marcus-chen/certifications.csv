@@ -1,0 +1,5 @@
+certification_name,issuing_organization,issue_date,credential_id,skills_verified
+AWS Certified Solutions Architect - Professional,Amazon Web Services,2023-01-20,AWS-SAP-55209,"AWS, Multi-Cloud Architecture, Networking, Security, High Availability"
+Certified Kubernetes Administrator (CKA),Linux Foundation,2022-04-15,CKA-99014,"Kubernetes, Cluster Administration, Networking, Troubleshooting"
+HashiCorp Certified: Terraform Associate,HashiCorp,2022-10-10,HC-TA-33910,"Terraform, Infrastructure as Code, State Management, Modules"
+Certified Kubernetes Security Specialist (CKS),Linux Foundation,2023-06-25,CKS-44109,"Kubernetes Security, Cluster Hardening, Threat Detection, Kyverno"

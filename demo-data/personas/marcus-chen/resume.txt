@@ -1,0 +1,35 @@
+MARCUS CHEN
+Staff Cloud Infrastructure & Platform Reliability Engineer
+Email: marcus.chen@talentgraph.internal
+Location: Austin, TX | Phone: (512) 555-0188 | LinkedIn: linkedin.com/in/marcuschen-cloud
+
+PROFESSIONAL SUMMARY
+Staff Cloud Infrastructure & DevOps Architect with 8.0 years of experience building multi-cloud Kubernetes platforms, zero-trust infrastructure, GitOps automation, and disaster recovery architectures. Expert in AWS, GCP, Terraform, Kubernetes, Helm, ArgoCD, Prometheus, and Golang. Led cloud modernization migrations reducing infrastructure costs by \$1.2M annually while maintaining 99.995% service availability across 80+ microservices.
+
+EXPERIENCE
+
+Staff Platform & Reliability Engineer | SkyGrid Infrastructure (2020 - Present)
+- Designed and operated global multi-region AWS and GCP Kubernetes infrastructure hosting 120+ microservices.
+- Implemented GitOps deployment workflows using ArgoCD, Helm, and Crossplane, increasing release velocity by 400%.
+- Architected automated failover and chaos engineering framework with Chaos Mesh, achieving 99.995% uptime SLA.
+- Led cloud security posture management (CSPM) and zero-trust service mesh with Istio, SPIRE, and Vault.
+
+Senior DevOps & SRE Engineer | Stratos Cloud Systems (2018 - 2020)
+- Built automated Terraform modules for multi-account AWS infrastructure (VPC, Transit Gateway, EKS, RDS).
+- Implemented enterprise observability platform with Prometheus, Cortex, Grafana, and OpenTelemetry.
+- Automated vulnerability scanning and container signing in CI/CD using Trivy, Cosign, and GitHub Actions.
+
+Cloud Systems Engineer | CoreNet Networks (2016 - 2018)
+- Managed Linux server fleets, Ansible configuration management, and Jenkins build pipelines.
+- Configured PostgreSQL and Redis HA replication clusters with automated snapshotting and disaster recovery.
+
+EDUCATION
+- Bachelor of Science in Computer Engineering, University of Texas at Austin (2016)
+
+TECHNICAL SKILLS & COMPETENCIES
+- Cloud Providers: AWS (EKS, IAM, Route53, S3, RDS, CloudFront), Google Cloud Platform (GKE, Cloud SQL), Azure
+- Container & Orchestration: Kubernetes, Docker, Helm, Istio Service Mesh, ArgoCD, Crossplane
+- Infrastructure as Code: Terraform, Terragrunt, Ansible, CloudFormation, Pulumi
+- Observability: Prometheus, Grafana, OpenTelemetry, Datadog, Jaeger, FluentBit
+- Security & Secrets: HashiCorp Vault, SPIRE, Trivy, Kyverno, OPA Gatekeeper, IAM Zero-Trust
+- Scripting & Languages: Go, Python, Bash, YAML, HCL

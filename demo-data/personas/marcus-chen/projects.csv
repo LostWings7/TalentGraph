@@ -1,0 +1,4 @@
+project_name,role_in_project,technologies,outcomes,evidence
+Multi-Region Kubernetes Platform,Staff Platform Architect,"Kubernetes, Terraform, ArgoCD, AWS, GCP, Istio","Scaled cluster infrastructure to 120+ microservices with 99.995% uptime and automated multi-region DR","Deployed across us-east-1, us-west-2, and eu-central-1 with sub-minute failovers"
+Zero-Trust Service Mesh & Secrets Mesh,Lead Security Architect,"Istio, HashiCorp Vault, SPIRE, Go, Kyverno","Eliminated static credentials across 800+ workloads and achieved SOC2 Type II compliance","Enforced mTLS encryption and ephemeral IAM token rotation company-wide"
+Enterprise Observability & SLO Pipeline,Core Architect,"Prometheus, Cortex, OpenTelemetry, Grafana, Alertmanager","Unified logging, tracing, and metrics for 40 engineering squads; reduced MTTR from 45m to 7m","Automated SLO burn-rate alerts integrated with PagerDuty and Slack"

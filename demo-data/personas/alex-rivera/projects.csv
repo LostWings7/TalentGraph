@@ -1,0 +1,4 @@
+project_name,role_in_project,technologies,outcomes,evidence
+Distributed Feature Store,Lead Architect,"Feast, Redis, Python, Kubernetes, Kafka","Built sub-5ms feature serving layer scaling to 50M daily requests with 99.99% uptime","Production system live in AWS EKS cluster serving real-time fraud models"
+Enterprise LLM Fine-Tuning Pipeline,Principal ML Engineer,"PyTorch, DeepSpeed, Hugging Face, Ray, Docker","Reduced multi-node GPU training costs by 35% with LoRA quantizations","Automated training pipeline adopted across 6 internal business units"
+Real-Time Model Serving Mesh,Core Contributor,"Kubernetes, Istio, ONNX Runtime, Go, Prometheus","Achieved 3.2x inference throughput increase and reduced p99 latency to 28ms","Benchmarked with Locust load tests under 50k sustained QPS"

@@ -1,0 +1,35 @@
+ALEX RIVERA
+Senior Machine Learning Engineer & Distributed Systems Developer
+Email: alex.rivera@talentgraph.internal
+Location: San Francisco, CA | Phone: (415) 555-0192 | LinkedIn: linkedin.com/in/alex-rivera-ml
+
+PROFESSIONAL SUMMARY
+Senior Machine Learning Engineer with 6.5 years of experience architecting large-scale predictive models, distributed training infrastructure, and real-time inference pipelines. Specialized in PyTorch, Transformer architectures, Kubernetes, and Ray distributed clusters. Proven track record reducing inference latency by 45% and scaling feature stores serving 50M+ daily active requests. Passionate about LLM fine-tuning, RAG architectures, and AI agent frameworks.
+
+EXPERIENCE
+
+Senior ML Platform Engineer | Apex Data Systems (2022 - Present)
+- Designed and deployed end-to-end distributed ML inference system on Kubernetes handling 45,000 requests/sec with p99 latency < 28ms.
+- Built automated LLM fine-tuning pipelines using LoRA/QLoRA on PyTorch and DeepSpeed, reducing training GPU costs by 35%.
+- Implemented real-time feature store using Feast and Redis cluster, serving 50M+ daily entity lookups.
+- Mentored 4 junior engineers in MLOps, CI/CD pipeline automation with GitHub Actions and Argo Workflows.
+
+Machine Learning Engineer | NovaScale AI (2019 - 2022)
+- Developed computer vision and NLP models for document intelligence using PyTorch and Hugging Face Transformers.
+- Orchestrated distributed data processing pipelines using Apache Spark and Ray on AWS EKS.
+- Optimized model deployment with ONNX Runtime and TensorRT, achieving 3.2x throughput increase.
+- Implemented automated model monitoring with Prometheus, Grafana, and Evidently AI for drift detection.
+
+Software Engineer | CloudMatrix Solutions (2017 - 2019)
+- Built high-concurrency microservices in Go and Python (FastAPI/Django) with PostgreSQL and Redis.
+- Implemented Docker containerization and Terraform infrastructure-as-code for multi-region AWS environments.
+
+EDUCATION & DEGREES
+- Master of Science in Computer Science (Specialization in AI/ML), Stanford University (2017)
+- Bachelor of Science in Electrical Engineering & Computer Science, UC Berkeley (2015)
+
+TECHNICAL EXPERTISE
+- Core Languages: Python, Go, SQL, C++, Bash
+- ML/AI Frameworks: PyTorch, TensorFlow, Hugging Face, Ray, LangChain, LlamaIndex, ONNX Runtime
+- Cloud & Infrastructure: AWS (SageMaker, EKS, S3, RDS), GCP, Docker, Kubernetes, Terraform, Argo Workflows
+- Data & Storage: PostgreSQL, Redis, Apache Spark, Feast, Pinecone, Milvus, Snowflake

@@ -1,0 +1,4 @@
+certification_name,issuing_organization,issue_date,credential_id,skills_verified
+dbt Certified Developer,dbt Labs,2023-03-15,DBT-CERT-88902,"dbt, Data Modeling, SQL, Semantic Layer, Jinja"
+Snowflake SnowPro Core Certified,Snowflake,2022-09-20,SNOW-PRO-44211,"Snowflake, Cloud Data Warehousing, Security, Optimization"
+AWS Certified Data Analytics - Specialty,Amazon Web Services,2021-12-05,AWS-DAS-33190,"AWS S3, Glue, EMR, Athena, Redshift, Kinesis"

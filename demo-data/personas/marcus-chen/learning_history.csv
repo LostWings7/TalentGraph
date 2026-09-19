@@ -1,0 +1,5 @@
+course_title,provider,completion_date,status,skills_acquired
+Advanced Service Mesh Architecture with Istio,Linux Foundation,2023-03-12,Completed,"Istio, Envoy, mTLS, Traffic Routing, Telemetry"
+Chaos Engineering and Resilience in Distributed Systems,O'Reilly,2022-11-18,Completed,"Chaos Engineering, Chaos Mesh, Resilience, Disaster Recovery"
+Zero-Trust Architecture and IAM Security Masterclass,Internal Academy,2023-07-22,Completed,"Zero-Trust, Vault, SPIRE, Least Privilege, Cloud Security"
+Site Reliability Engineering: Measuring and Managing Reliability,Coursera / Google Cloud,2021-08-30,Completed,"SRE, SLOs, Error Budgets, Incident Response, Monitoring"

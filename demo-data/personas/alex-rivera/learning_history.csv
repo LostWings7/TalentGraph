@@ -1,0 +1,5 @@
+course_title,provider,completion_date,status,skills_acquired
+Generative AI with Large Language Models,DeepLearning.AI / Coursera,2023-09-12,Completed,"LLMs, Prompt Engineering, RLHF, Fine-Tuning"
+Advanced Distributed Systems with Go & gRPC,Internal Academy,2022-04-18,Completed,"Go, gRPC, Distributed Systems, Microservices"
+Production MLOps with Kubeflow and MLflow,Linux Foundation,2023-01-30,Completed,"MLOps, Kubeflow, Model Registry, CI/CD"
+Ray Distributed Computing in Production,O'Reilly,2023-11-05,Completed,"Ray, Distributed Computing, Parallel Processing"

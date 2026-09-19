@@ -1,0 +1,4 @@
+project_name,role_in_project,technologies,outcomes,evidence
+Enterprise Experimentation Platform,Lead Data Scientist,"Python, Statsmodels, Snowflake, Streamlit, Airflow","Automated statistical validation for 300+ monthly A/B tests with SRM detection","Used by product and growth teams to power 15% improvement in conversion velocity"
+Modern Lakehouse Semantic Layer,Principal Analytics Architect,"dbt Core, Snowflake, SQL, Great Expectations","Standardized 450+ core business metrics across 12 departments with 99.8% data SLA","Reduced query compute spend by 28% through cluster clustering keys and incremental models"
+Customer LTV & Churn Forecasting Engine,Senior Modeler,"PySpark, scikit-learn, MLflow, AWS S3, Tableau","Identified \$14M in at-risk ARR through 90-day predictive churn hazard modeling","Deployed to production customer success workflows with 89% precision"
