@@ -4,6 +4,7 @@ import {
   Plus, 
   ShieldAlert, 
   ShieldCheck, 
+  Shield,
   Lock, 
   CheckCircle2, 
   Clock, 
@@ -174,19 +175,38 @@ export const EmployeeProjectsView = () => {
                 className="atlas-surface-elevated p-5 flex flex-col justify-between space-y-4 hover:border-cyan-500/30 transition-all"
               >
                 <div className="space-y-2">
-                  <div className="flex items-center justify-between">
+                  <div className="flex items-center justify-between gap-2 flex-wrap">
                     <span className="text-[10px] font-mono px-2 py-0.5 rounded bg-slate-800 text-slate-300">
                       {proj.department}
                     </span>
-                    {isConfidential ? (
-                      <span className="px-2 py-0.5 rounded bg-rose-500/20 text-rose-300 text-[9px] font-mono font-bold flex items-center gap-1">
-                        <Lock className="w-2.5 h-2.5" /> Confidential
-                      </span>
-                    ) : (
-                      <span className="px-2 py-0.5 rounded bg-cyan-500/20 text-cyan-300 text-[9px] font-mono font-bold">
-                        {proj.status}
-                      </span>
-                    )}
+                    <div className="flex items-center gap-1.5 flex-wrap">
+                      {isConfidential ? (
+                        <span className="px-2 py-0.5 rounded bg-rose-500/20 text-rose-300 text-[9px] font-mono font-bold flex items-center gap-1 border border-rose-500/30">
+                          <Lock className="w-2.5 h-2.5" /> Confidential
+                        </span>
+                      ) : (
+                        <span className="px-2 py-0.5 rounded bg-cyan-500/20 text-cyan-300 text-[9px] font-mono font-bold">
+                          {proj.status}
+                        </span>
+                      )}
+
+                      {/* AI Processing Policy (Section 23) */}
+                      {proj.ai_processing_mode === 'NO_EXTERNAL_AI' && (
+                        <span className="px-1.5 py-0.5 rounded bg-rose-950/60 text-rose-400 text-[8px] font-mono font-bold flex items-center gap-1 border border-rose-500/30" title="Air-Gapped: Confidential details never reach external AI">
+                          <ShieldAlert className="w-2.5 h-2.5" /> NO_EXTERNAL_AI
+                        </span>
+                      )}
+                      {proj.ai_processing_mode === 'AI_SAFE_SUMMARY' && (
+                        <span className="px-1.5 py-0.5 rounded bg-amber-950/60 text-amber-400 text-[8px] font-mono font-bold flex items-center gap-1 border border-amber-500/30" title="Sanitized: Redacted high-level summary only reaches AI layer">
+                          <Shield className="w-2.5 h-2.5" /> AI_SAFE_SUMMARY
+                        </span>
+                      )}
+                      {(!proj.ai_processing_mode || proj.ai_processing_mode === 'AI_ALLOWED') && (
+                        <span className="px-1.5 py-0.5 rounded bg-cyan-950/60 text-cyan-400 text-[8px] font-mono font-bold flex items-center gap-1 border border-cyan-500/30" title="Full context permitted for AI capability synthesis">
+                          <Sparkles className="w-2.5 h-2.5" /> AI_ALLOWED
+                        </span>
+                      )}
+                    </div>
                   </div>
 
                   <h3 className="font-bold text-base text-white light:text-slate-900">

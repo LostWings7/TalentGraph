@@ -178,14 +178,14 @@ export const RoleMatchDetailView = () => {
         {/* 2. Semantic Score */}
         <div className="atlas-surface p-4 border-t-4 border-t-indigo-500 space-y-2">
           <div className="flex items-center justify-between text-[10px] font-mono text-slate-400">
-            <span>Semantic Vector Fit</span>
+            <span>Contextual Role Alignment</span>
             <span>Weight: 30%</span>
           </div>
           <div className="text-2xl font-black font-mono text-indigo-400 light:text-indigo-700">
             {Math.round((matchDetail.semantic_score || 0.75) * 100)}%
           </div>
           <p className="text-[11px] text-slate-300 light:text-slate-600">
-            Deep contextual embedding alignment.
+            Holistic capability match and domain context fit.
           </p>
         </div>
 

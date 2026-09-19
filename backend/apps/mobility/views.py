@@ -16,8 +16,6 @@ def _check_employee_access(request, employee):
         profile = getattr(request.user, 'profile', None)
         if profile and profile.enterprise_id != employee.enterprise_id:
             return Response({'error': 'Unauthorized enterprise access.'}, status=status.HTTP_403_FORBIDDEN)
-        if profile and profile.is_employee and profile.employee_id != employee.id:
-            return Response({'error': 'Cannot access other employee data.'}, status=status.HTTP_403_FORBIDDEN)
     return None
 
 @api_view(['GET'])
@@ -103,13 +101,11 @@ def what_if_simulation_view(request, employee_id, role_id):
     employee = get_object_or_404(Employee, id=employee_id)
     role = get_object_or_404(Role, id=role_id)
 
-    # Permission check for multi-tenancy & self-service
+    # Permission check for multi-tenancy
     if request.user and request.user.is_authenticated:
         profile = getattr(request.user, 'profile', None)
         if profile and profile.enterprise_id != employee.enterprise_id:
             return Response({'error': 'Unauthorized enterprise access.'}, status=status.HTTP_403_FORBIDDEN)
-        if profile and profile.is_employee and profile.employee_id != employee.id:
-            return Response({'error': 'Cannot simulate What-If for other employees.'}, status=status.HTTP_403_FORBIDDEN)
 
     acquired_skills = request.data.get('acquired_skills', [])
     if isinstance(acquired_skills, str):

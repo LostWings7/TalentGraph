@@ -1,5 +1,7 @@
 @import "tailwindcss";
 
+@custom-variant light (.light-theme &);
+
 @layer base {
   :root {
     --font-sans: 'Plus Jakarta Sans', 'Inter', system-ui, -apple-system, sans-serif;

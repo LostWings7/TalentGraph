@@ -51,7 +51,11 @@ class CanAccessEmployeeObject(permissions.BasePermission):
         if profile.is_hr:
             return True
         
-        # If employee, must be their own record
+        # Read-only capability discovery allowed within same enterprise
+        if request.method in permissions.SAFE_METHODS:
+            return True
+        
+        # If employee mutating, must be their own record
         return profile.employee_id == obj.id
 
 class CanAccessProjectObject(permissions.BasePermission):

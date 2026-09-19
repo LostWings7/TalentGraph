@@ -4,7 +4,7 @@ import { EvidenceTrail } from './EvidenceTrail';
 import { useTalent } from '../../context/TalentContext';
 
 export const EvidenceDrawer = ({ skill, onClose }) => {
-  const { employeeDetail } = useTalent();
+  const { employeeDetail, activeRoleMatches, navigateTo } = useTalent();
 
   if (!skill) return null;
 
@@ -36,7 +36,13 @@ export const EvidenceDrawer = ({ skill, onClose }) => {
 
         {/* Scrollable Body */}
         <div className="flex-1 overflow-y-auto p-5">
-          <EvidenceTrail skill={skill} employeeDetail={employeeDetail} />
+          <EvidenceTrail 
+            skill={skill} 
+            employeeDetail={employeeDetail} 
+            activeRoleMatches={activeRoleMatches}
+            navigateTo={navigateTo}
+            onClose={onClose}
+          />
         </div>
 
         {/* Footer */}

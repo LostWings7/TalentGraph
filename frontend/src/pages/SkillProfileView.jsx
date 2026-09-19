@@ -222,18 +222,31 @@ export const SkillProfileView = () => {
                   </div>
 
                   <div className="min-w-0">
-                    <div className="flex items-center gap-2">
+                    <div className="flex items-center gap-2 flex-wrap">
                       <span className="text-xs font-bold text-white light:text-slate-900 group-hover:text-cyan-400 light:group-hover:text-cyan-700 transition-colors truncate">
                         {sLabel}
                       </span>
                       <span className={`text-[9px] py-0.2 ${
-                        skill.source === 'explicit' ? 'atlas-badge-emerald' : 'atlas-badge-cyan'
+                        skill.verification_status === 'approved' || skill.verification_status === 'verified'
+                          ? 'atlas-badge-emerald'
+                          : skill.source === 'explicit'
+                          ? 'atlas-badge-cyan'
+                          : 'atlas-badge-indigo'
                       }`}>
-                        {skill.source === 'explicit' ? 'Verified' : 'Inferred'}
+                        {skill.verification_status === 'approved' ? 'T1: HR Verified' :
+                         skill.source === 'explicit' ? 'T3: Demonstrated' :
+                         skill.source === 'certification' ? 'T2: Certified' :
+                         'T4: Inferred'}
+                      </span>
+                      <span className={`text-[8px] font-mono px-1.5 py-0.2 rounded-full flex items-center gap-1 ${
+                        confPct >= 80 ? 'bg-emerald-500/15 text-emerald-400' : 'bg-amber-500/15 text-amber-400'
+                      }`}>
+                        <span className={`w-1 h-1 rounded-full ${confPct >= 80 ? 'bg-emerald-400' : 'bg-amber-400'}`} />
+                        {confPct >= 80 ? 'Fresh Evidence' : 'Aging Decay'}
                       </span>
                     </div>
                     <div className="text-[10px] font-mono text-slate-400 light:text-slate-500 mt-0.5 truncate">
-                      {sCat} • Level: {sProf}
+                      {sCat} • Proficiency: {sProf}
                     </div>
                   </div>
                 </div>

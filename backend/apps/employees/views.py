@@ -35,10 +35,6 @@ class EmployeeListView(generics.ListAPIView):
         if enterprise:
             qs = qs.filter(enterprise=enterprise)
 
-        # If authenticated as employee, restrict to self only (prevent enumeration)
-        if profile and profile.is_employee and profile.employee:
-            qs = qs.filter(id=profile.employee_id)
-
         dept = self.request.query_params.get('department')
         if dept:
             qs = qs.filter(department=dept)
